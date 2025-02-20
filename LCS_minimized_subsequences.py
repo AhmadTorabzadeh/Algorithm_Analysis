@@ -56,8 +56,7 @@ def solve(sequence1, sequence2):
     length=len(sequence1[I:])+ len(sequence2[J:])
     sequence12=sequence1[I:]
     sequence22=sequence2[J:]
-    # Please write your code here (you may define more functions and variables). Good Luck!
-    # ----------------------------- #
+    
     return LCS,length
          
 
