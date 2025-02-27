@@ -1,5 +1,5 @@
 def interval_scheduling_coving(n, u, v, intervals):
-    # Please write your algorithm here:
+   
     S=[]
     t=0
     t_prime=u
@@ -11,7 +11,6 @@ def interval_scheduling_coving(n, u, v, intervals):
             t=intervals[i][1]
     maximum=len(S)
     
-    
 
     while len(intervals)!=0 and t_prime<=v:
         P=[]
@@ -20,7 +19,6 @@ def interval_scheduling_coving(n, u, v, intervals):
             if intervals[i][0]<=t_prime:
                 P.append(intervals[i])
             
-       # j= max(enumerate(P), key=lambda x: x[1][1])[0]  
         
         if len(P)!=0:
             t_prime=P[-1][1]    
@@ -48,10 +46,9 @@ def read_input():
     return n,u,v,intervals
 
 
-
 n,u,v,intervals=read_input()
 
-#print(intervals)
+
 maximum,minimum=interval_scheduling_coving(n, u, v, intervals)
 
 print(maximum)
