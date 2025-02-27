@@ -23,7 +23,7 @@ def read_input():
     return n, m, s, t, edges,N
 
 
-#OK
+
 def BFS(N,s,t):
     que=deque([(s,[s])])
     visited=set()
