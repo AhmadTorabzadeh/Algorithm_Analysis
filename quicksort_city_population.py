@@ -1,7 +1,6 @@
 import numpy as np
 
 def ascending_sort(cities):
-    # Please write your algorithm here:
         if len(cities)<=1:
             return cities
         
