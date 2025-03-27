@@ -1,7 +1,6 @@
 import heapq
 
 def LIFO_FF(k, n, m, requests,T):
-    # Please write your algorithm here:
         
     CachLIFO=[] 
     
@@ -55,10 +54,8 @@ def LIFO_FF(k, n, m, requests,T):
     dif= (m-LIFO)-(m-FF)         
                 
                 
-    # .................................
     return summ, dif
 
-#You are allowed to use some built-in functions, such as the Python heap library, including heapq.heapify(). 
 
 def read_input():
     k, n, m = map(int, input().split())
