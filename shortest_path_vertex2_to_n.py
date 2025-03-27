@@ -27,13 +27,3 @@ SP=shortest_path(n, edges)
 if SP==float('inf'):
     SP="INFINITY"
 print(SP)
-
-
-
-
-# 5 5
-# 1 2 2
-# 1 3 -1
-# 2 3 2
-# 2 4 3
-# 3 5 4
